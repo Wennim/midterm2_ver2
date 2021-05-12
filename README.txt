@@ -1,0 +1,5 @@
+# midterm2_ver2
+
+在main裏有宣告所有需要rpc的變數。在function.cpp有包括ulcd function,這是在ulcd顯示當前的sequence num和gesture_id。然後還有capture_mode,這是爲了用rpc操作開啓capture mode，還有stop_condition rpc,這是讓rps操作停止capturte_mode。
+還有wifi_mqtt是用USER-BUTTON啓動後，publish現在的sequence和gesture_id。
+mqtt_client.py裏面有包括rpc function和mqtt_client 兩種功能。
